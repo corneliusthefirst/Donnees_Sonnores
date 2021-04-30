@@ -1,0 +1,162 @@
+Intercorrelation 
+
+
+High to Low extreme test output
+
+
+->hightolow extreme numero 1
+
+seuil: 0.95
+Decisions: [1.2925056689342402]
+Reality: [1.2119501133786847]
+match:1 miss:0 fausse_alarme:0
+
+
+->hightolow extreme numero 2
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3993650793650794]
+match:1 miss:0 fausse_alarme:0
+
+->hightolow extreme numero 3
+
+seuil: 0.95
+Decisions: [1.360532879818594]
+Reality: [1.3243990929705216]
+match:1 miss:0 fausse_alarme:0
+
+->hightolow extreme numero 4
+
+seuil: 0.95
+Decisions: [1.360532879818594]
+Reality: [1.3243990929705216]
+match:1 miss:0 fausse_alarme:0
+
+->hightolow extreme numero 5
+
+seuil: 0.95
+Decisions: [1.2925056689342402]
+Reality: [1.2869160997732427]
+match:1 miss:0 fausse_alarme:0
+
+->hightolow extreme numero 6
+
+seuil: 0.95
+Decisions: [0.7482879818594104, 1.360532879818594]
+Reality: [1.3618820861678005]
+match:1 miss:1 fausse_alarme:0
+
+->hightolow extreme numero 7
+
+seuil: 0.95
+Decisions: [0.340124716553288]
+Reality: [1.3868707482993197]
+match:0 miss:1 fausse_alarme:0
+
+->hightolow extreme numero 8
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3868707482993197]
+match:1 miss:0 fausse_alarme:0
+
+->hightolow extreme numero 9
+
+seuil: 0.95
+Decisions: [1.360532879818594, 1.4285600907029479]
+Reality: [1.3868707482993197]
+match:1 miss:0 fausse_alarme:1
+
+->hightolow extreme numero 10
+
+seuil: 0.95
+Decisions: [0.13604308390022676, 1.4965873015873017]
+Reality: [1.411859410430839]
+match:1 miss:1 fausse_alarme:0
+
+
+
+
+Low to High extreme test output
+
+
+
+->lowtohigh extreme numero 1
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3243990929705216]
+match:1 miss:0
+
+->lowtohigh extreme numero 2
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3618820861678005]
+match:1 miss:0
+
+->lowtohigh extreme numero 3
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3868707482993197]
+match:1 miss:0
+
+->lowtohigh extreme numero 5
+
+seuil: 0.95
+Decisions: [1.8367233560090703]
+Reality: [1.3618820861678005]
+match:0 miss:1
+
+->lowtohigh extreme numero 6
+
+seuil: 0.95
+Decisions: [1.5646145124716553, 1.7686961451247165, 1.9727777777777775]
+Reality: [1.3618820861678005]
+match:0 miss:3
+
+->lowtohigh extreme numero 7
+seuil: 0.95
+Decisions: [1.5646145124716553]
+Reality: [1.411859410430839]
+match:0 miss:1
+
+->lowtohigh extreme numero 8
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.4368480725623582]
+match:1 miss:0
+
+->lowtohigh extreme numero 9
+
+seuil: 0.95
+Decisions: [1.2925056689342402]
+Reality: [1.311904761904762]
+match:1 miss:0
+
+->lowtohigh extreme numero 10
+
+seuil: 0.95
+Decisions: [1.4285600907029479]
+Reality: [1.3618820861678005]
+match:1 miss:0
+
+
+3 regimes change test
+
+seuil: 0.85
+Decisions: [1.4285600907029479, 2.6530498866213152, 4.01359410430839]
+Reality: [1.2994104308390022, 2.573832199546485, 3.8232653061224484]
+match:1 miss:2
+
+
+
+10 regimes change test
+
+seuil: 0.75
+Decisions: [2.585022675736961, 5.170056689342404, 5.442165532879818, 6.394546485260772, 7.6870634920634915, 8.843526077097504, 11.360532879818596, 11.428560090702948, 12.58502267573696]
+Reality: [1.3493877551020408, 2.561337868480725, 3.835759637188209, 5.097687074829932, 6.397097505668933, 7.671519274376418, 8.858480725623583, 10.007959183673467, 11.34485260770975, 12.581791383219954]
+match:7 miss:3
